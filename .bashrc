@@ -8,7 +8,7 @@
 alias ls='ls --color=auto'
 PS1='\W $ '
 
-neofetch
+#neofetch
 
 #shortcuts
 #alias ls='ls --color=auto'
