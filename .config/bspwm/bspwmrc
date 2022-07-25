@@ -30,4 +30,4 @@ lxappearance &
 polybar &
 nitrogen --restore &
 picom &
-killall lxappearance &
+
