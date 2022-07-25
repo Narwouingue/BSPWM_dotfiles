@@ -26,8 +26,8 @@ bspc config gapless_monocle      true
 
 
 #autostart
+lxappearance &
 polybar &
 nitrogen --restore &
 picom &
-lxappearance &
 killall lxappearance &
