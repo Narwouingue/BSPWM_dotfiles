@@ -5,7 +5,7 @@ sudo pacman -S bspwm sxhkd git rofi polybar vim picom rxvt-unicode nitrogen lxap
 ```
 Then : 
 - Copy the .config file content into your .config file and the other files into your home directory
-- The put your unziped themes into ~/.themes 
-- Your icons themes and cursors goes into ~/.icons
+- Put your unziped themes into ~/.themes 
+- Your icons themes and cursors goes into ~/.icons (unziped too)
 
 You can now boot into bspwm and do whatever you want.
