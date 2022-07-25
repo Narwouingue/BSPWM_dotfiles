@@ -8,18 +8,18 @@
 alias ls='ls --color=auto'
 PS1='\W $ '
 
-#neofetch
 
 #shortcuts
-#alias ls='ls --color=auto'
-alias reso='xrandr -s 1920x1080'
 alias c='clear'
-alias po='sudo nano ~/.config/polybar/config.ini'
-alias n='sudo nano'
-alias pi='sudo nano ~/.config/picom.conf'
-alias x='sudo nano ~/.Xresources'
-alias k='sudo nano ~/.config/sxhkd/sxhkdrc'
-alias ba='sudo nano ~/.bashrc'
-alias b='sudo nano ~/.config/bspwm/bspwmrc'
-alias r='sudo nano ~/.config/rofi/config.rasi'
 alias n='neofetch'
+alias v='sudo vim'
+alias x='sudo vim ~/.Xresources'
+alias k='sudo vim ~/.config/sxhkd/sxhkdrc'
+alias b='sudo vim ~/.config/bspwm/bspwmrc'
+alias r='sudo vim ~/.config/rofi/config.rasi'
+
+alias pi='sudo vim ~/.config/picom.conf'
+alias po='sudo vim ~/.config/polybar/config.ini'
+alias ba='sudo vim ~/.bashrc'
+
+alias res='xrandr -s 1920x1080'
