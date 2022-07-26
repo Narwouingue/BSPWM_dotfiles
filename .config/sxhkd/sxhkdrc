@@ -3,7 +3,7 @@
 #
 
 # terminal emulator
-super + Return
+super + t
 	urxvt
 	
 	
@@ -50,11 +50,11 @@ super + f
 	
 #Alternate between tiling and floating
 super + space
-	bspc node -t "~"[floating,tiled)
+	bspc node -t "~"{floating,tiled}
 
 # set the node flags
-super + ctrl + {m,x,y,z}
-	bspc node -g {marked,locked,sticky,private}
+#super + ctrl + {m,x,y,z}
+#	bspc node -g {marked,locked,sticky,private}
 
 #
 # focus/swap
