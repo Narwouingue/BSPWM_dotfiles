@@ -9,3 +9,5 @@ Then :
 - Your icons themes and cursors goes into ~/.icons (unziped too)
 
 You can now boot into bspwm and do whatever you want.
+
+![image](https://user-images.githubusercontent.com/98690904/180974818-32eaa896-73c7-4840-a8b7-8290ad0881bd.png)
