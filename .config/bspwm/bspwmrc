@@ -29,5 +29,5 @@ bspc config gapless_monocle      true
 killall -q polybar
 bash ~/.config/polybar/launch.sh
 nitrogen --restore &
-picom &
+picom --experimental-badkends -b
 
