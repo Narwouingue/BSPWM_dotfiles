@@ -12,6 +12,7 @@ while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 polybar left --config=~/.config/polybar/config.ini &
 polybar center --config=~/.config/polybar/config.ini &
 polybar right --config=~/.config/polybar/config.ini &
+polybar menu --config=~/.config/polybar/config.ini &
 
 
 echo "Polybar launched..."
