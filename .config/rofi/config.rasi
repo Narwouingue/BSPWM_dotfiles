@@ -11,10 +11,10 @@
 @theme "/dev/null"
 
 * {
-  bg: #11121D;
-  bg-alt: #444b6a;
+  bg: #282A2E;
+  bg-alt: #282A2E;
 
-  fg: #FFFFFF;
+  fg: #b80be8;
   fg-alt: #787c99;
 
   background-color: @bg;
