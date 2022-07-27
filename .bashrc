@@ -20,6 +20,6 @@ alias r='sudo nano ~/.config/rofi/config.rasi'
 
 alias pi='sudo nano ~/.config/picom.conf'
 alias po='sudo nano ~/.config/polybar/config.ini'
-alias ba='sudo nano~/.bashrc'
+alias ba='sudo nano ~/.bashrc'
 
 alias res='xrandr -s 1920x1080'
