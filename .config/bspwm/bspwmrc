@@ -1,8 +1,9 @@
 #! /bin/sh
+
 sxhkd -c ~/.config/sxhkd/sxhkdrc &
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V
+bspc monitor -d ◉ II III IV V
 
 bspc config border_width         3
 
