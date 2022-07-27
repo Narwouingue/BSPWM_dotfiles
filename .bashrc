@@ -24,3 +24,5 @@ alias po='sudo nano ~/.config/polybar/config.ini'
 alias ba='sudo nano ~/.bashrc'
 
 alias res='xrandr -s 1920x1080'
+
+alias s='echo sleep command:"echo mem > /sys/power/state"'
