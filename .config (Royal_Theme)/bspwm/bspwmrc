@@ -1,5 +1,5 @@
 #! /bin/sh
-
+sxhkd -c ~/.config/sxhkd/sxhkdrc
 pgrep -x sxhkd > /dev/null || sxhkd &
 
 bspc monitor -d I II III IV V
