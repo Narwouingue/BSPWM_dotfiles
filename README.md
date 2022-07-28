@@ -25,15 +25,12 @@ sudo pacman -S  ttf-dejavu
 
 You can now boot into bspwm and do whatever you want.
 # Sweet theme (default)
+icon theme : Tela ; GTK theme : Orchis
 ![Sans titre](https://user-images.githubusercontent.com/98690904/181194499-f298fb9f-2d8e-46ab-86ce-c0636a112f9e.png)
 
 
 # Royal theme
+icon theme : Tela ; GTK theme : Orchis
 ![Screenshot_20220726_155703](https://user-images.githubusercontent.com/98690904/181024100-478b3636-3a29-4dab-b241-3c7bc9fbdd09.png)
 
 
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
