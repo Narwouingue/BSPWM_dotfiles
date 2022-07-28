@@ -23,7 +23,10 @@ sudo pacman -S  ttf-dejavu
 <li /> Put your unziped themes into ~/.themes 
 <li /> Your icons themes and cursors goes into ~/.icons (unziped too) </ul>
 
-You can now boot into bspwm and do whatever you want.
+<br /> WARNING: the experimental backend for picom is enabled by default, it may cause so graphical issues on virtual machines. To fix this, you just need to replace the last line of the bspwrc file by <br />
+```picom &```
+
+
 # Sweet theme (default)
 Icon theme : Tela ; GTK theme : Orchis
 ![Sans titre](https://user-images.githubusercontent.com/98690904/181194499-f298fb9f-2d8e-46ab-86ce-c0636a112f9e.png)
