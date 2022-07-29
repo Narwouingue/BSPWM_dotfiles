@@ -1,4 +1,4 @@
-#
+
 # ~/.bashrc
 #
 
@@ -25,4 +25,8 @@ alias ba='sudo nano ~/.bashrc'
 
 alias res='xrandr -s 1920x1080'
 
-alias s='echo sleep command:"echo mem > /sys/power/state"'
+alias boot='echo suspend = sus ; echo shutdown = shut ; echo reboot = reb ;echo hibernate = hib'
+alias sus='sudo systemctl suspend'
+alias shut='sudo shutdown now'
+alias reb='sudo reboot'
+alias hib='sudo systemctl hibernate'
