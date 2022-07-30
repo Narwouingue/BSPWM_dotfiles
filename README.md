@@ -40,3 +40,7 @@ Icon theme : Tela ; GTK theme : Orchis
 Icon theme : Snowy ; GTK theme : Mystique
 ![Sans titre](https://user-images.githubusercontent.com/98690904/181447523-df551489-acf8-4c2f-a107-4825172fe2a4.png)
 
+
+# Even more minimalist theme
+Icon theme : Snowy ; GTK theme : Kripton
+![a](https://user-images.githubusercontent.com/98690904/181876901-dce945ba-e76f-4baa-b2ab-dc15e95de480.png)
