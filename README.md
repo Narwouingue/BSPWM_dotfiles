@@ -1,7 +1,7 @@
 # BSPWM_dotfiles
 First, run this comand to install the needed packages 
 ```
-sudo pacman -S  xorg bspwm sxhkd git rofi polybar nano picom rxvt-unicode nitrogen lxappearance
+sudo pacman -S  xorg bspwm sxhkd git rofi polybar nano picom kitty nitrogen lxappearance
 ```
 <br /> don't forget to update your archlinx keyring to avoid packages conflit, to do so you can run <br />
 ```phython
