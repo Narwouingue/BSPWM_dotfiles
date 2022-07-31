@@ -24,7 +24,10 @@ sudo pacman -S  ttf-dejavu
 <li /> Your icons themes and cursors goes into ~/.icons (unziped too) </ul>
 
 <br /> WARNING: the experimental backend for picom is enabled by default, it may cause so graphical issues on virtual machines. To fix this, you just need to replace the last line of the bspwrc file by <br />
-```picom &```
+```picom & ```
+
+The fork of picom I'm using to get the animations is the 
+```picom-animations-git``` on the AUR
 
 
 # Sweet theme (default)
