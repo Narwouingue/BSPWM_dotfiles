@@ -30,11 +30,6 @@ The fork of picom I'm using to get the animations is the
 ```picom-animations-git``` on the AUR
 
 
-# Sweet theme (default)
-Icon theme : Tela ; GTK theme : Orchis
-![Sans titre](https://user-images.githubusercontent.com/98690904/181194499-f298fb9f-2d8e-46ab-86ce-c0636a112f9e.png)
-
-
 
 # Even more minimalist theme
 Icon theme : Snowy ; GTK theme : Kripton
