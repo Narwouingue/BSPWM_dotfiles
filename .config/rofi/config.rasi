@@ -5,28 +5,31 @@
   font: "JetBrainsMono Nerd Font Medium 10";
   modi: "window,run,drun";
   show-icons: true;
-  icon-theme: "Tela";
+  icon-theme:"Snowy" ;
+  location : 1;
+  yoffset : 60;
+  xoffset : 15;
 }
 
 @theme "/dev/null"
 
 * {
-  bg: #282A2E;
-  bg-alt: #282A2E;
+  bg: #141516;
+  bg-alt: #141516;
 
-  fg: #b80be8;
+  fg: #c6c8c6;
   fg-alt: #787c99;
 
   background-color: @bg;
   
   border: 0;
-  margin: 0;
+  margin-top: 10;
   padding: 0;
   spacing: 0;
 }
 
 window {
-  width: 45%;
+  width: 500;
 }
 
 element {
@@ -61,7 +64,7 @@ inputbar {
 listview {
   padding: 8 12;
   background-color: @bg;
-  columns: 3;
+  columns: 2;
   lines: 8;
 }
 

@@ -4,7 +4,7 @@
 
 # terminal emulator
 super + t
-	kitty 
+	kitty
 
 # program launcher
 super + d
@@ -67,7 +67,7 @@ super + {p,b,comma,period}
 	bspc node -f @{parent,brother,first,second}
 
 # focus the next/previous window in the current desktop
-super + {Tab}
+super + {a,Tab}
 	bspc node -f {next,prev}.local.!hidden.window
 
 # focus the next/previous desktop in the current monitor
@@ -85,7 +85,7 @@ super + {o,i}
 	bspc wm -h on
 
 # focus or send to the given desktop
-super + {_,shift + }{1,2,3,4,a,z,e,r}
+super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} '^{1-9,10}'
 
 #
