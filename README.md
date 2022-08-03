@@ -31,6 +31,6 @@ The fork of picom I'm using to get the animations is the
 
 
 
-# Even more minimalist theme
+# Minimalist theme
 Icon theme : Snowy ; GTK theme : Kripton
 ![a](https://user-images.githubusercontent.com/98690904/181876901-dce945ba-e76f-4baa-b2ab-dc15e95de480.png)
