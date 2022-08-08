@@ -6,8 +6,9 @@ sudo pacman -S  xorg bspwm sxhkd git rofi polybar nano picom rxvt-unicode nitrog
 <br /> don't forget to update your system and to download the ```base-devel``` package before  <br />
 
 Theses are the apps I use : 
-``` Thunar, cava, tty-clock, firefox, lxappearance, vs code ```
-
+``` Thunar, cava, tty-clock, firefox, lxappearance, vs code, betterlockscreen, oblogout```
+Here's the link for the oblogout theme https://www.deviantart.com/bruhensant/art/Theme-Oblogout-Adeos-ArchLabs-709747680 <br/>
+Just copy the content of the file into /usr/share/themes
 
 
 <p> The fonts is dejavu, to install it run 
