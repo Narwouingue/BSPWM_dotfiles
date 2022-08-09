@@ -1,7 +1,7 @@
 # BSPWM_dotfiles
 First, run this comand to install the needed packages 
 ```
-sudo pacman -S  xorg bspwm sxhkd git rofi polybar nano picom rxvt-unicode nitrogen
+sudo pacman -S  xorg bspwm sxhkd git rofi polybar nano picom kitty nitrogen
 ```
 <br /> don't forget to update your system and to download the ```base-devel``` package before  <br />
 
