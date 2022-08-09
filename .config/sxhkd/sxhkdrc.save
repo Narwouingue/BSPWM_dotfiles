@@ -19,12 +19,12 @@ super + shift + x
 	oblogout
 
 #launch firefox
-super + q
+super + a
 	firefox
 
 #launch thunar
-super + w
-	pcmanfm
+super + z
+	thunar
 
 #launch vs-code
 super + e
@@ -73,9 +73,6 @@ super + space
 # set the node flags
 #super + ctrl + {m,x,y,z}
 #	bspc node -g {marked,locked,sticky,private}
-
-
-
 
 #
 # focus/swap
