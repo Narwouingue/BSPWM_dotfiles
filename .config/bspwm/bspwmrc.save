@@ -33,5 +33,4 @@ killall -q polybar
 bash ~/.config/polybar/launch.sh
 nitrogen --restore &
 picom --experimental-backends -b &
-/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 megasync & 
