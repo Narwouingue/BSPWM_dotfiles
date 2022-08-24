@@ -4,11 +4,11 @@ First, run this comand to install the needed packages
 sudo pacman -S  xorg bspwm sxhkd git rofi polybar nano picom kitty nitrogen pulseaudio
 ```
 <br /> don't forget to update your system and to download the ```base-devel``` package before  <br />
+<br /> I use ```polkit-gnome``` as the polkit
 
 Theses are the apps I use : 
-``` Thunar, cava, tty-clock, firefox, lxappearance, vs code, betterlockscreen, oblogout```
+``` pcmanfm, cava, tty-clock, firefox, lxappearance, vs code, betterlockscreen, oblogout```
 Here's the link for the oblogout theme https://www.deviantart.com/bruhensant/art/Theme-Oblogout-Adeos-ArchLabs-709747680 <br/>
-
 
 
 <p> The fonts is dejavu, to install it run 
