@@ -1,4 +1,3 @@
-
 # ~/.bashrc
 #
 
@@ -12,21 +11,22 @@ PS1='\W $ '
 #shortcuts
 alias c='clear'
 alias n='neofetch'
-alias v='sudo nano'
-alias p='pfetch'
-alias x='sudo nano ~/.config/kitty/kitty.conf'
-alias k='sudo nano ~/.config/sxhkd/sxhkdrc'
-alias b='sudo nano ~/.config/bspwm/bspwmrc'
-alias r='sudo nano ~/.config/rofi/config.rasi'
+alias v='sudo vim'
+alias x='vim ~/.config/kitty/kitty.conf'
+alias k='vim ~/.config/sxhkd/sxhkdrc'
+alias b='vim ~/.config/bspwm/bspwmrc'
+alias r='vim ~/.config/rofi/config.rasi'
 
-alias pi='sudo nano ~/.config/picom.conf'
-alias po='sudo nano ~/.config/polybar/config.ini'
-alias ba='sudo nano ~/.bashrc'
+alias pi='vim ~/.config/picom.conf'
+alias po='vim ~/.config/polybar/config.ini'
+alias ba='vim ~/.bashrc'
 
 alias res='xrandr -s 1920x1080'
 
-alias boot='echo suspend = sus ; echo shutdown = shut ; echo reboot = reb ;echo hibernate = hib'
+
 alias sus='sudo systemctl suspend'
 alias shut='sudo shutdown now'
 alias reb='sudo reboot'
 alias hib='sudo systemctl hibernate'
+
+alias cdphp='cd /opt/lampp/htdocs/php'
