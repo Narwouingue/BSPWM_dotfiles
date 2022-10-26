@@ -4,7 +4,9 @@
 
 # terminal emulator
 super + t
-	kitty 
+	kitty
+
+
 
 # program launcher
 super + d
@@ -19,11 +21,11 @@ super + shift + x
 	oblogout
 
 #launch firefox
-super + q
+super + a
 	firefox
 
 #launch thunar
-super + w
+super + z
 	pcmanfm
 
 #launch vs-code
@@ -107,13 +109,13 @@ super + {o,i}
 	bspc node {older,newer} -f; \
 	bspc wm -h on
 
-# focus or send to the given desktop french keyboard
-#super + {_,shift + }{ampersand,eacute,quotedb1,apostrophe,parenleft,section,egrave,exclam,ccdilla,agrave}
-#	bspc {desktop -f,node -d} '^{1-9,10}'
+# focus to the given desktop french keyboard
+super + {ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
+     bspc desktop -f '^{1-9,10}'
 
-#focus or send to the given desktop
-super + {_,shift + }{1,2,3,4,5,6,7,8}
-	bspc {desktop -f,node -d} '^{1-9,10}'
+#send to the given desktop
+super + shift + {ampersand,eacute,quotedbl,apostrophe,parenleft,section,egrave,exclam,ccedilla,agrave}
+    id=$(bspc query -N -n); bspc node -d ^{1-9,10}
 
 #
 # preselect

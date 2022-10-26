@@ -1,4 +1,4 @@
- configuration {
+configuration {
   display-drun: "Applications:";
   display-window: "Windows:";
   drun-display-format: "{name}";
@@ -81,4 +81,3 @@ prompt {
 }
 
 /* vim: ft=sass
-
