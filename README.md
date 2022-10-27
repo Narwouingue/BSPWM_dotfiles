@@ -6,7 +6,7 @@ sudo pacman -S  xorg bspwm sxhkd git rofi polybar vim picom kitty nitrogen pulse
 <br /> don't forget to update your system and to download the ```base-devel``` package before  <br />
 <br /> I use ```polkit-gnome``` as the polkit
 
-
+You also need to install and configure  ```lxappearance```, ```kvantum``` and ```qt5ct``` so that all the apps have your custom theme
 
 
 <p> The fonts is dejavu, to install it run 
