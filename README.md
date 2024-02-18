@@ -1,5 +1,5 @@
 # BSPWM_dotfiles
-First, run this comand to install the needed packages 
+First, run this comand to install the required packages 
 ```
 sudo pacman -S  xorg bspwm sxhkd git rofi polybar vim picom kitty nitrogen pulseaudio
 ```
